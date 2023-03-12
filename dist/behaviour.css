@@ -1,0 +1,40 @@
+@media screen and (max-width: 767px) {
+
+    #webchat-container {
+        position: fixed;
+        z-index: 200;
+        height: 90vh !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 95%;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+    #webchat-box {
+        height: 90vh !important;
+        width: 100% !important;
+    }
+
+    .chat-active {
+        touch-action: none;
+        -webkit-overflow-scrolling: none;
+        overflow: hidden;
+        overscroll-behavior: none;
+    }
+
+
+
+}
+
+body:has(#webchat-container:not(.webchat-hidden)) {
+    touch-action: none;
+    -webkit-overflow-scrolling: none;
+    overflow: hidden;
+    overscroll-behavior: none;
+}
