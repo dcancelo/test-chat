@@ -1,0 +1,33 @@
+* {
+    outline: 1px solid red;
+}
+
+div#wrapper {
+    border: 2px solid black;
+    height: 97vh;
+}
+
+div#content {
+    background-color: aquamarine;
+}
+
+#shadow {
+    background-color: blue;
+    display: none;
+    position: fixed;
+    z-index: 200;
+    height: 97vh;
+    top: 0;
+    left: 0;
+}
+
+.show {
+    display: block !important;
+}
+
+.chat-active {
+    touch-action: none;
+    -webkit-overflow-scrolling: none;
+    overflow: hidden;
+    overscroll-behavior: none;
+}
