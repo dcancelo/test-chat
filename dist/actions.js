@@ -1,6 +1,5 @@
 const open = document.querySelector("#open");
 open.addEventListener("click", () => {
-
     document.querySelector("#shadow").classList.add("show");
     document.body.classList.add("chat-active");
 });
