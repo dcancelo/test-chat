@@ -1,24 +1,21 @@
 @media screen and (max-width: 767px) {
 
     #webchat-container {
-        position: fixed;
+        position: absolute !important;
         z-index: 200;
-        height: 90vh !important;
+        height: 70vh;
         top: 0;
         left: 0;
         bottom: 0;
-        width: 95%;
+        /*    width: 95%;*/
 
     }
-
-
-
 }
 
 @media screen and (max-width: 767px) {
     #webchat-box {
-        height: 90vh !important;
-        width: 100% !important;
+        height: 70vh;
+        /*width: 100% !important;*/
     }
 
     .chat-active {
@@ -28,7 +25,15 @@
         overscroll-behavior: none;
     }
 
+    #webchat-button {
+        top: 70vh !important;
+        height: 70px;
+        right: 15vw !important;
+    }
 
+    .short-chat {
+        height: 50vh !important;
+    }
 
 }
 
